@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(41, 199, 199);
+    font-family: sans-serif;
+}
+
+h2 {
+    text-align: center;
+    line-height: 2.5;
+}
+
+.container {
+    background-color: #eee;
+    margin: 0 auto;
+    padding: 20px;
+    width: calc(100% - 60px);
+    border-radius: 5px;
+    height: calc(100vh - 60px);
+}
+
+p {
+    text-align: center;
+    line-height: 2;
+}
+
+form {
+    margin-top: 30px;
+}
+
+form .name,
+form .Email,
+form .age{
+    display: flex;
+    margin-top: 10px;
+}
+form .student,
+form .recommend,
+form .select
+{
+    display: flex;
+    margin-top: 35px;
+}
+
+form .name div:nth-child(1),
+form .Email div:nth-child(1),
+form .age div:nth-child(1)
+{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 20px;
+}
+
+form .student div:nth-child(1),
+form .recommend .title,
+form .select div:nth-child(1)
+{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+}
+
+form .name div input,
+form .Email div input,
+form .age div input{
+    width: 290px;
+    padding: 7px 15px;
+}
+
+select {
+    padding: 8px 10px;
+    background: #d2cece;
+}
+
+label span
+{
+    display: block;
+    text-align: right;
+}
+
+.all_radio
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+@media (max-width: 730px) {
+    label,
+    label span
+    {
+        text-align: center;
+    }
+}

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>task2</title>
+</head>
+<body>
+    <h2>Survey Form</h2>
+    <div class="container">
+        <p>let us know how we can improve freeCodeCamp</p>
+
+            <form action="">
+                <!-- ============================================================================= -->
+                <div class="name">
+                    <div>
+                        <label for="text">*Name:</label>
+                    </div>
+                    <div>
+                        <input type="text" name="Name" id="text" placeholder="Enter Your name">
+                    </div>
+                </div>
+                <!-- ============================================================================= -->
+                <div class="Email">
+                    <div>
+                        <label for="Email">*Email:</label>
+                    </div>
+                    <div>
+                        <input type="email" name="Email" id="Email" placeholder="Enter Your Email">
+                    </div>
+                </div>
+                <!-- ============================================================================= -->
+                <div class="age">
+                    <div>
+                        <label for="Age">*Age:</label>
+                    </div>
+                    <div>
+                        <input type="number" name="Age" id="Age" placeholder="Age">
+                    </div>
+                </div>
+                <!-- ============================================================================= -->
+                <div class="student">
+                    <div>
+                        <label>Which option best describes Your current role?</label>
+                    </div>
+                    <div>
+                        <select name="student">
+                            <option>student</option>
+                            <option>student_2</option>
+                            <option>student_3</option>
+                        </select>
+                    </div>
+                </div>
+                <!-- ============================================================================= -->
+                <div class="recommend">
+                    <div class="title">
+                        <label>*How likely is that you would recommend
+                                <span>freeCodeCamp to a friend?</span>
+                        </label>
+                    </div>
+
+                    <div class="all_radio">
+                        <div>
+                            <input type="radio" id="rad1">
+                            <label for="rad1">Definitely</label>
+                        </div>
+
+                        <div>
+                            <input type="radio" id="rad2">
+                            <label for="rad2">Maybe</label>
+                        </div>
+
+                        <div>
+                            <input type="radio" id="rad3">
+                            <label for="rad3">Not sure</label>
+                        </div>
+                    </div>
+                </div>
+                <!-- ============================================================================= -->
+                <div class="select">
+                    <div>
+                        <label>What do you like most in FCC</label>
+                    </div>
+
+                    <div>
+                        <select name="Select an option">
+                            <option>Select an option</option>
+                            <option>Select an option</option>
+                            <option>Select an option</option>
+                        </select>
+                    </div>
+                </div>
+                <!-- ============================================================================= -->
+                <div class="recommend">
+                    <div class="title">
+                        <label>things that should be improved in the future
+                                <span>(Check all that apply):</span>
+                        </label>
+                    </div>
+
+                    <div class="all_radio">
+                        <div>
+                            <input type="checkbox" id="box1">
+                            <label for="box1">Front_End</label>
+                        </div>
+
+                        <div>
+                            <input type="checkbox" id="box2">
+                            <label for="box2">Back_End</label>
+                        </div>
+
+                        <div>
+                            <input type="checkbox" id="box3">
+                            <label for="box3">Data Visualization</label>
+                        </div>
+                    </div>
+                </div>
+                <!-- ============================================================================= -->
+            </form>
+    </div>
+</body>
+</html>
