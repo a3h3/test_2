@@ -5,7 +5,7 @@ DOCTYPE هو اختصار ل "Document Type Declaration"
 <!DOCTYPE html>
 تساعد في تحديد القواعد التي يجب أن يتبعها المتصفح عند معالجة الصفحة، مما يساعد في تجنب المشاكل في تفسير وعرض الوثيقة بشكل صحيح.
 
-
+https://developer.mozilla.org/en-US/docs/Glossary/Doctype
 
 
 
